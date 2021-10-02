@@ -1,0 +1,139 @@
+
+
+:root{
+    --bg: #00ffff;
+    --wd: #a52a2a;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--bg);
+}
+
+
+.info{
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: x-large;
+    margin: 100px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.pills{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-radius: 2rem;
+    border: solid var(--bg);
+    margin-left: 100px; 
+    font-family: 'Inconsolata', monospace;   
+}
+
+.pills:hover{
+    background-color: var(--wd);
+    color: var(--bg);
+    font-family: 'Inconsolata', monospace;
+}
+
+h1{
+    color: black;
+    font-weight: bolder;
+    
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.back-button{
+    color: var(--wd);
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2rem;
+    
+    padding-left: 45rem;
+    font-weight: bolder;
+
+    
+    
+}
+
+.label{
+    font-size: x-large;
+    color: black;
+    margin: 1rem;
+}
+
+.button{
+    padding: 0.5rem;
+    color: black;
+    background-color: var(--bg);
+    border: solid var(--wd);
+    border-bottom-right-radius: 1rem;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.button:hover{
+    padding: 0.5rem;
+    color: var(--bg);
+    background-color: var(--wd);
+    border: solid white;
+    border-bottom-right-radius:  1rem;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.btn{
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.output{
+    color: var(--wd);
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.side-input{
+    
+    font-size: large;
+}
+
+.question{
+    font-size: x-large;
+    color: black;
+    margin: 1rem;
+}
+
+.pill{
+
+    text-decoration: none;
+    margin-top: 2rem;
+    color: black;
+    font-size: large;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-radius: 2rem;
+    border: solid var(--wd);
+    margin-left: 100px;  
+    margin-top: 2rem;
+
+}
+
+.eg{
+    margin-top: 5rem;
+}
+
+.pill:hover{
+    background-color: var(--wd);
+    color: var(--bg);
+
+}
